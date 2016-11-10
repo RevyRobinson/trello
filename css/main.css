@@ -1,15 +1,28 @@
 .hidden {
 	display:none;
 }
-.boton-add {
+button {
 	background-color: darkblue;
 	color: white;
-	width: 150px;
+	width: 200px;
 	border-radius: 5px 5px 5px 5px;
 	text-align: center;
 	padding: 8px;
 	border: 1px solid darkblue;
+	margin-top: 8px;
 }
 input {
 	padding: 8px;
+}
+
+.caja-titulo {
+	background-color: #A9A9F5;
+	border-radius: 5px 5px 5px 5px;
+	margin-top: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	color:black;
+	font-weight: bold;
+	width: 200px;
 }
